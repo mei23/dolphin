@@ -108,7 +108,7 @@
 		"https-proxy-agent": "4.0.0",
 		"insert-text-at-cursor": "0.3.0",
 		"is-root": "2.1.0",
-		"is-svg": "4.2.0",
+		"is-svg": "4.2.1",
 		"js-yaml": "3.13.1",
 		"jsdom": "15.2.1",
 		"koa": "2.11.0",
