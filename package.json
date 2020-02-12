@@ -37,7 +37,7 @@
 		"@types/bull": "3.12.0",
 		"@types/chart.js": "2.9.8",
 		"@types/dateformat": "3.0.1",
-		"@types/fluent-ffmpeg": "2.1.13",
+		"@types/fluent-ffmpeg": "2.1.14",
 		"@types/gulp": "4.0.6",
 		"@types/gulp-rename": "0.0.33",
 		"@types/is-url": "1.2.28",
