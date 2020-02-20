@@ -8289,10 +8289,10 @@ syslog-pro@1.0.0:
   dependencies:
     moment "^2.22.2"
 
-systeminformation@*, systeminformation@4.21.2:
-  version "4.21.2"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.21.2.tgz#0ee92c0565687a5301ba141444643b43d0370ae2"
-  integrity sha512-7O6laxHTstfj9MSrX77lKLfWz0zqqutWL0+uoJkR7sOOr4XCTwD0QG4shUVCiOWlVX+a8/gHJUio420FrSk8/w==
+systeminformation@*, systeminformation@4.22.2:
+  version "4.22.2"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.22.2.tgz#3bd7b859567041e810ac21e70b745e24af932b8e"
+  integrity sha512-+JR75dp6EQNSvph7FllowOuQ7qtE8fnNY5Fk+TRrbHS7EkURfLHlksZUUNq7WkN7muHqDYEkR+WRU69GdAyFsw==
 
 table@^5.2.3:
   version "5.4.6"
