@@ -173,7 +173,7 @@
 		"v-debounce": "0.1.2",
 		"vue": "2.6.11",
 		"vue-cropperjs": "4.0.1",
-		"vue-i18n": "8.15.3",
+		"vue-i18n": "8.15.4",
 		"vue-loader": "15.9.0",
 		"vue-meta": "2.3.2",
 		"vue-router": "3.1.5",
