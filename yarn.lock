@@ -1268,10 +1268,10 @@ autobind-decorator@2.4.0:
   resolved "https://registry.yarnpkg.com/autobind-decorator/-/autobind-decorator-2.4.0.tgz#ea9e1c98708cf3b5b356f7cf9f10f265ff18239c"
   integrity sha512-OGYhWUO72V6DafbF8PM8rm3EPbfuyMZcJhtm5/n26IDwO18pohE4eNazLoCGhPiXOCD0gEGmrbU3849QvM8bbw==
 
-aws-sdk@2.616.0:
-  version "2.616.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.616.0.tgz#c8772f2cde6e250ce126747e6f995aa969f0632a"
-  integrity sha512-jvmUn5WgL7EQz3e40tDpmCQA2RlchMZkxp/yVOYv4eKVrW5Mxz4QVnPqIWXutK6Ml3C3/DBMR0uIQybztvSrGA==
+aws-sdk@2.634.0:
+  version "2.634.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.634.0.tgz#95077c191107b9cb696e922b06e79949dcd13434"
+  integrity sha512-cZfRD7bcKBHOLoHUJuqB9xaLs/z1/xsc9zfGLIzyuxKLJa7Z0pxy8Y/0GrhWO98yXLBvLLET7btj2iDI2oWWhQ==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
