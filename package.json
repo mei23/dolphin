@@ -34,7 +34,7 @@
 		"@koa/multer": "2.0.2",
 		"@koa/router": "8.0.5",
 		"@types/bcryptjs": "2.4.2",
-		"@types/bull": "3.12.0",
+		"@types/bull": "3.12.1",
 		"@types/chart.js": "2.9.15",
 		"@types/dateformat": "3.0.1",
 		"@types/fluent-ffmpeg": "2.1.14",
