@@ -76,7 +76,7 @@
 		"@types/webpack": "4.41.6",
 		"@types/webpack-stream": "3.2.10",
 		"@types/websocket": "1.0.0",
-		"@types/ws": "7.2.1",
+		"@types/ws": "7.2.2",
 		"@typescript-eslint/parser": "2.22.0",
 		"agentkeepalive": "4.1.0",
 		"autobind-decorator": "2.4.0",
