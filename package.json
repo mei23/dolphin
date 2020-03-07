@@ -136,7 +136,7 @@
 		"promise-limit": "2.7.0",
 		"pug": "2.0.4",
 		"punycode": "2.1.1",
-		"pureimage": "0.1.6",
+		"pureimage": "0.2.1",
 		"random-seed": "0.3.0",
 		"reconnecting-websocket": "4.4.0",
 		"redis": "3.0.2",
