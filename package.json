@@ -139,7 +139,7 @@
 		"pureimage": "0.1.6",
 		"random-seed": "0.3.0",
 		"reconnecting-websocket": "4.4.0",
-		"redis": "2.8.0",
+		"redis": "3.0.2",
 		"redis-lock": "0.1.4",
 		"reflect-metadata": "0.1.13",
 		"rename": "1.0.4",
