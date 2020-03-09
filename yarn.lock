@@ -7769,10 +7769,10 @@ shallow-clone@^3.0.0:
   dependencies:
     kind-of "^6.0.2"
 
-sharp@0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.25.0.tgz#b10f6249e4267ed70f627f702b29b47927fe3891"
-  integrity sha512-58XANPzzUNcDXdScxqKFzMWuzGTJtsoKQ2Y0v2Gj2ztgIMZCGJjeiErf7eQYwP6r/p9HFMYeaiW5PffTMPXo/Q==
+sharp@0.25.1:
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.25.1.tgz#7bcc9c0ed0debcf1109913e4b3e901d56e957f07"
+  integrity sha512-CO/16EfYsSPUyW0uHNVhMMR6mqMeMKA5AjVA0/yH2VgYCX+M7jCklzciHGZdOfewDUMVSiu5elFFpkvvhPwgoA==
   dependencies:
     color "^3.1.2"
     detect-libc "^1.0.3"
