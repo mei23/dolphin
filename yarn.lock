@@ -878,7 +878,7 @@ acorn@^4.0.4, acorn@~4.0.2:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.13.tgz#105495ae5361d697bd195c825192e1ad7f253787"
   integrity sha1-EFSVrlNh1pe9GVyCUZLhrX8lN4c=
 
-acorn@^6.2.1, acorn@^6.4.1:
+acorn@^6.2.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
   integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
@@ -8624,10 +8624,10 @@ tslint-sonarts@1.9.0:
   dependencies:
     immutable "^3.8.2"
 
-tslint@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/tslint/-/tslint-6.0.0.tgz#1c0148beac4779924216302f192cdaa153618310"
-  integrity sha512-9nLya8GBtlFmmFMW7oXXwoXS1NkrccqTqAtwXzdPV9e2mqSEvCki6iHL/Fbzi5oqbugshzgGPk7KBb2qNP1DSA==
+tslint@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/tslint/-/tslint-6.1.0.tgz#c6c611b8ba0eed1549bf5a59ba05a7732133d851"
+  integrity sha512-fXjYd/61vU6da04E505OZQGb2VCN2Mq3doeWcOIryuG+eqdmFUXTYVwdhnbEu2k46LNLgUYt9bI5icQze/j0bQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     builtin-modules "^1.1.1"

@@ -163,7 +163,7 @@
 		"tmp": "0.1.0",
 		"ts-loader": "6.2.1",
 		"ts-node": "8.6.2",
-		"tslint": "6.0.0",
+		"tslint": "6.1.0",
 		"tslint-sonarts": "1.9.0",
 		"typeorm": "0.2.24",
 		"typescript": "3.8.3",
