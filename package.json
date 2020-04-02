@@ -84,7 +84,7 @@
 		"bcryptjs": "2.4.3",
 		"bull": "3.13.0",
 		"cafy": "15.2.1",
-		"chalk": "3.0.0",
+		"chalk": "4.0.0",
 		"chart.js": "2.9.3",
 		"cli-highlight": "2.1.4",
 		"commander": "4.1.1",
