@@ -96,7 +96,7 @@
 		"eslint-plugin-vue": "6.2.2",
 		"eventemitter3": "4.0.0",
 		"feed": "4.1.0",
-		"fibers": "4.0.2",
+		"fibers": "5.0.0",
 		"file-type": "12.4.2",
 		"fluent-ffmpeg": "2.1.2",
 		"gulp": "4.0.2",
