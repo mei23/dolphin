@@ -128,7 +128,7 @@
 		"nested-property": "2.0.0",
 		"nprogress": "0.2.0",
 		"os-utils": "0.0.14",
-		"parse5": "5.1.1",
+		"parse5": "6.0.0",
 		"pg": "8.0.3",
 		"portscanner": "2.2.0",
 		"postcss-loader": "3.0.0",
