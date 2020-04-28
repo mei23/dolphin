@@ -113,7 +113,7 @@
 		"jsdom": "16.2.2",
 		"koa": "2.11.0",
 		"koa-bodyparser": "4.3.0",
-		"koa-compress": "3.0.0",
+		"koa-compress": "4.0.0",
 		"koa-favicon": "2.1.0",
 		"koa-json-body": "5.3.0",
 		"koa-logger": "3.2.1",
