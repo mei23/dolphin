@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - bull > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - eslint > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - lookup-dns-cache > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - '@typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash':
+        patched: '2020-05-01T08:46:01.878Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - eslint-plugin-vue > vue-eslint-parser > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - lookup-dns-cache > async > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - portscanner > async > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - '@typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2020-05-01T08:46:01.878Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - summaly > cheerio-httpcli > async > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - summaly > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T08:46:01.878Z'
