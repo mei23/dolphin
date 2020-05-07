@@ -8635,10 +8635,10 @@ void-elements@^2.0.1:
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
   integrity sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=
 
-vue-cropperjs@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/vue-cropperjs/-/vue-cropperjs-4.0.1.tgz#1d4cd2f7b5292ffe83de780c76e4a2dec2b66118"
-  integrity sha512-THkBBhiRHUX188QdVnyQzFWOW2g0oBMbEQ2t7sWenPxpaGZ1tFMePG2878Iw+6z6PRzq+dT0FubTtfZZzdSyxw==
+vue-cropperjs@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/vue-cropperjs/-/vue-cropperjs-4.1.0.tgz#f52b944611e689fd5f0c59bab0b30fe64de1b58e"
+  integrity sha512-ORQTaxsygsFvz21Hyf5yNUwQXGRdLXYF4964ueLjR+VpKjHkoqV67oDT3gLCHyrq5HRKmwJPShUiHzdhIo3JTQ==
   dependencies:
     cropperjs "^1.5.6"
 
