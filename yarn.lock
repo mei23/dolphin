@@ -3683,16 +3683,16 @@ gulp-cli@^2.2.0:
     v8flags "^3.0.1"
     yargs "^7.1.0"
 
-gulp-dart-sass@0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/gulp-dart-sass/-/gulp-dart-sass-0.9.1.tgz#6243d12744759e17568bf06183b4aa1a16a74432"
-  integrity sha512-6gmKmzDwSzjrN1nIC7K0URpX3fG5jMXxbpBLF42GFhnuM5+9Is7D9W55K+9A0MnFeqKyZGIzof4a9GDpB8wJgQ==
+gulp-dart-sass@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gulp-dart-sass/-/gulp-dart-sass-1.0.2.tgz#20e33c236b48d557c91e8dfe67a2aef2b8a2e328"
+  integrity sha512-8fLttA824mbuc0jRVlGs00zWYZXBckat6INawx5kp66Eqsz5srNWTA51t0mbfB4C8a/a/GZ9muYLwXGklgAHlw==
   dependencies:
     chalk "^2.3.0"
     lodash.clonedeep "^4.3.2"
     plugin-error "^1.0.1"
     replace-ext "^1.0.0"
-    sass "^1.10.3"
+    sass "^1.26.3"
     strip-ansi "^4.0.0"
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
@@ -7251,7 +7251,7 @@ sass-loader@8.0.2:
     schema-utils "^2.6.1"
     semver "^6.3.0"
 
-sass@1.26.5, sass@^1.10.3:
+sass@1.26.5, sass@^1.26.3:
   version "1.26.5"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.26.5.tgz#2d7aecfbbabfa298567c8f06615b6e24d2d68099"
   integrity sha512-FG2swzaZUiX53YzZSjSakzvGtlds0lcbF+URuU9mxOv7WBh7NhXEVDa4kPKN4hN6fC2TkOTOKqiqp6d53N9X5Q==
