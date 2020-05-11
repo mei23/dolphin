@@ -1509,10 +1509,10 @@ builtin-modules@^1.1.1:
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
   integrity sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=
 
-bull@3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/bull/-/bull-3.13.0.tgz#232935f9a5c0c87be6eb2aa95e434ff115bacd7a"
-  integrity sha512-nP8ICMNHGYDNt6cgPqBPm90n57xA+/Om2wI2EGEOIJtWutjrYt8JAWiiFYjZKrly9UkKlrfG9qgOCwFFdS5xaw==
+bull@3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/bull/-/bull-3.14.0.tgz#75fcfa17e829c860de0d51b79569636845232715"
+  integrity sha512-qQrytpqbE6Zjl2zkvlqS1kUwWLJHpDOhhuGb34+5atPeZrd8DlxkAbxnLnaMB1XQX1iXPzFVpDOUOIIROYKp6Q==
   dependencies:
     cron-parser "^2.13.0"
     debuglog "^1.0.0"
