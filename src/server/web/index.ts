@@ -3,7 +3,6 @@
  */
 
 import * as os from 'os';
-import ms = require('ms');
 import * as Koa from 'koa';
 import * as Router from '@koa/router';
 import * as send from 'koa-send';
@@ -47,18 +46,11 @@ app.use(async (ctx, next) => {
 // Init router
 const router = new Router();
 
-router.get('/assets/app.js', async ctx => {
-	await send(ctx as any, ctx.path, {
-		root: client,
-		maxage: 0,
-	});
-});
-
 //#region static assets
 router.get('/assets/*', async ctx => {
 	await send(ctx as any, ctx.path, {
 		root: client,
-		maxage: ms('1 days'),
+		maxage: 0,	// TODO
 	});
 });
 

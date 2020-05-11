@@ -25,6 +25,7 @@ import { FollowingRepository } from './repositories/following';
 import { UserProfile } from './entities/user-profile';
 import { HashtagRepository } from './repositories/hashtag';
 import { UsedUsername } from './entities/used-username';
+import { RelayRepository } from './repositories/relay';
 
 export const Notes = getCustomRepository(NoteRepository);
 export const NoteFavorites = getCustomRepository(NoteFavoriteRepository);
@@ -52,3 +53,4 @@ export const Blockings = getCustomRepository(BlockingRepository);
 export const Mutings = getCustomRepository(MutingRepository);
 export const SwSubscriptions = getRepository(SwSubscription);
 export const Hashtags = getCustomRepository(HashtagRepository);
+export const Relays = getCustomRepository(RelayRepository);

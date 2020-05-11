@@ -23,6 +23,7 @@
 				<router-link to="/instance/files"><fa :icon="faCloud" fixed-width/>{{ $t('files') }}</router-link>
 				<router-link to="/instance/monitor"><fa :icon="faTachometerAlt" fixed-width/>{{ $t('monitor') }}</router-link>
 				<router-link to="/instance/queue"><fa :icon="faExchangeAlt" fixed-width/>{{ $t('jobQueue') }}</router-link>
+				<router-link to="/instance/relays"><fa :icon="faProjectDiagram" fixed-width/>{{ $t('relays') }}</router-link>
 				<router-link to="/federation"><fa :icon="faGlobe" fixed-width/>{{ $t('federation') }}</router-link>
 				<div></div>
 				<router-link to="/instance"><fa :icon="faCog" fixed-width/>{{ $t('general') }}</router-link>
@@ -55,7 +56,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import { faPencilAlt, faBars, faTimes, faSearch, faUserCog, faCog, faUser, faHome, faStar, faCircle, faAt, faListUl, faPlus, faUserClock, faUsers, faTachometerAlt, faExchangeAlt, faGlobe, faChartBar, faCloud } from '@fortawesome/free-solid-svg-icons';
+import { faPencilAlt, faBars, faTimes, faSearch, faUserCog, faCog, faUser, faHome, faStar, faCircle, faAt, faListUl, faPlus, faUserClock, faUsers, faTachometerAlt, faExchangeAlt, faGlobe, faChartBar, faCloud, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 import { faBell, faEnvelope, faLaugh } from '@fortawesome/free-regular-svg-icons';
 import i18n from './i18n';
 import { search } from './scripts/search';
@@ -79,7 +80,7 @@ export default Vue.extend({
 			accounts: [],
 			lists: [],
 			connection: null,
-			faPencilAlt, faBars, faTimes, faBell, faSearch, faUserCog, faCog, faUser, faHome, faStar, faCircle, faAt, faEnvelope, faListUl, faPlus, faUserClock, faLaugh, faUsers, faTachometerAlt, faExchangeAlt, faGlobe, faChartBar, faCloud
+			faPencilAlt, faBars, faTimes, faBell, faSearch, faUserCog, faCog, faUser, faHome, faStar, faCircle, faAt, faEnvelope, faListUl, faPlus, faUserClock, faLaugh, faUsers, faTachometerAlt, faExchangeAlt, faGlobe, faChartBar, faCloud, faProjectDiagram
 		};
 	},
 

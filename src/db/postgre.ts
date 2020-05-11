@@ -30,6 +30,7 @@ import { UserKeypair } from '../models/entities/user-keypair';
 import { UserPublickey } from '../models/entities/user-publickey';
 import { UserProfile } from '../models/entities/user-profile';
 import { UsedUsername } from '../models/entities/used-username';
+import { Relay } from '../models/entities/relay';
 
 const sqlLogger = dbLogger.createSubLogger('sql', 'white', false);
 
@@ -92,6 +93,7 @@ export const entities = [
 	Emoji,
 	Hashtag,
 	SwSubscription,
+	Relay,
 	...charts as any
 ];
 
