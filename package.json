@@ -133,7 +133,7 @@
 		"nprogress": "0.2.0",
 		"os-utils": "0.0.14",
 		"parse5": "6.0.0",
-		"pg": "8.1.0",
+		"pg": "8.2.0",
 		"portscanner": "2.2.0",
 		"postcss-loader": "3.0.0",
 		"probe-image-size": "5.0.0",
