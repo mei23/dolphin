@@ -159,7 +159,7 @@
 		"style-loader": "1.2.1",
 		"summaly": "2.3.1",
 		"syslog-pro": "1.0.0",
-		"systeminformation": "4.26.0",
+		"systeminformation": "4.26.1",
 		"terser-webpack-plugin": "2.3.6",
 		"textarea-caret": "3.1.0",
 		"tmp": "0.2.1",
