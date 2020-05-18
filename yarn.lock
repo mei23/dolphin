@@ -602,10 +602,10 @@
     "@types/source-list-map" "*"
     source-map "^0.6.1"
 
-"@types/webpack-stream@3.2.10":
-  version "3.2.10"
-  resolved "https://registry.yarnpkg.com/@types/webpack-stream/-/webpack-stream-3.2.10.tgz#eed8389a60d9928b357aa6d13599428d2c4889e7"
-  integrity sha512-gzUDP7oa60qMUlKUUoT7EZJ77OpGPJ9ZmNFLfcG7ITJS80lIx/9r6F2MkGJNLjsNV/ygDGVHGLn4/5e8813/Og==
+"@types/webpack-stream@3.2.11":
+  version "3.2.11"
+  resolved "https://registry.yarnpkg.com/@types/webpack-stream/-/webpack-stream-3.2.11.tgz#9b6099e699cee5e1d2998b657acbbcd3a197f9f6"
+  integrity sha512-SOYuMHBc10Rl/flwiLv9pere0iUc3tWBlpXdd1NedRxRuUKETGedR5KZuQ3F410qgueY172urhZvSbMOQQm7MA==
   dependencies:
     "@types/node" "*"
     "@types/webpack" "*"
