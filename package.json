@@ -164,7 +164,7 @@
 		"textarea-caret": "3.1.0",
 		"tmp": "0.2.1",
 		"ts-loader": "7.0.5",
-		"ts-node": "8.10.1",
+		"ts-node": "8.10.2",
 		"tslint": "6.1.2",
 		"tslint-sonarts": "1.9.0",
 		"typeorm": "0.2.25",
