@@ -33,7 +33,7 @@
 		"@fortawesome/vue-fontawesome": "0.1.9",
 		"@koa/cors": "3.1.0",
 		"@koa/multer": "3.0.0",
-		"@koa/router": "8.0.8",
+		"@koa/router": "9.0.1",
 		"@types/bcryptjs": "2.4.2",
 		"@types/bull": "3.13.0",
 		"@types/chart.js": "2.9.21",
