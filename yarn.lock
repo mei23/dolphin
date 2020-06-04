@@ -7492,7 +7492,7 @@ semver@^7.3.2:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
   integrity sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==
 
-serialize-javascript@3.1.0, serialize-javascript@^3.0.0:
+serialize-javascript@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-3.1.0.tgz#8bf3a9170712664ef2561b44b691eafe399214ea"
   integrity sha512-JIJT1DGiWmIKhzRsG91aS6Ze4sFUrYbltlkg2onR5OrnNM02Kl/hnY/T4FN2omvyeBbQmMJv+K4cPOpGzOTFBg==
@@ -8080,10 +8080,10 @@ syslog-pro@1.0.0:
   dependencies:
     moment "^2.22.2"
 
-systeminformation@*, systeminformation@4.26.5:
-  version "4.26.5"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.26.5.tgz#d2dc77d4cc54b38345d552fcfd00344f49a964a4"
-  integrity sha512-hTVhCYNIsoDtL8brW6wg/UTHmyRfMRItd/+6f6JZtXjmx06FHKBGCyBe7WN6J+FiDIiDfTK7mvMq7hljM6r5OA==
+systeminformation@*, systeminformation@4.26.6:
+  version "4.26.6"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.26.6.tgz#cad751a6640cab1130c6ffe9cea26dfb528c1dee"
+  integrity sha512-oXWCX3imUhwlGTOGMNchkA+/hqGYsiAAGAs6y5aoOUffekpcP+HTNrD2C+MbCZzYzZz9Q55N5D8nUh6odHGL7w==
 
 table@^5.2.3:
   version "5.4.6"
