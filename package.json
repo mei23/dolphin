@@ -78,7 +78,7 @@
 		"@types/webpack-stream": "3.2.11",
 		"@types/websocket": "1.0.0",
 		"@types/ws": "7.2.5",
-		"@typescript-eslint/parser": "2.34.0",
+		"@typescript-eslint/parser": "3.1.0",
 		"abort-controller": "3.0.0",
 		"autobind-decorator": "2.4.0",
 		"aws-sdk": "2.690.0",
