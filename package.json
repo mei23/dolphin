@@ -183,7 +183,7 @@
 		"vue-svg-inline-loader": "1.5.0",
 		"vue-template-compiler": "2.6.11",
 		"vuedraggable": "2.23.2",
-		"vuex": "3.4.0",
+		"vuex": "3.5.1",
 		"vuex-persistedstate": "3.0.1",
 		"web-push": "3.4.4",
 		"webpack": "5.0.0-beta.17",
