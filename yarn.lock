@@ -1508,10 +1508,10 @@ builtin-modules@^1.1.1:
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
   integrity sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=
 
-bull@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/bull/-/bull-3.14.0.tgz#75fcfa17e829c860de0d51b79569636845232715"
-  integrity sha512-qQrytpqbE6Zjl2zkvlqS1kUwWLJHpDOhhuGb34+5atPeZrd8DlxkAbxnLnaMB1XQX1iXPzFVpDOUOIIROYKp6Q==
+bull@3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/bull/-/bull-3.15.0.tgz#1cebf9f7fbf5ceb1aa5348e86910c2097554d980"
+  integrity sha512-5+HoYZXy5tYIpWdod7Xa0nahRkN2uItfmoCqgWEokabDjD4igvfB9CHf3uPWBnXngQ8EiTlglim5IGdz4MzdvA==
   dependencies:
     cron-parser "^2.13.0"
     debuglog "^1.0.0"
@@ -8262,7 +8262,7 @@ thenify-all@^1.0.0:
   dependencies:
     thenify ">= 3.1.0 < 4"
 
-thenify@3.3.1, "thenify@>= 3.1.0 < 4":
+"thenify@>= 3.1.0 < 4":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/thenify/-/thenify-3.3.1.tgz#8932e686a4066038a016dd9e2ca46add9838a95f"
   integrity sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==
