@@ -210,10 +210,10 @@
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
   integrity sha512-OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==
 
-"@types/estree@0.0.42":
-  version "0.0.42"
-  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.42.tgz#8d0c1f480339efedb3e46070e22dd63e0430dd11"
-  integrity sha512-K1DPVvnBCPxzD+G51/cxVIoc2X8uUVl1zpJeE6iKcgHMj4+tbat5Xu4TjV7v2QSDbIeAfLi2hIk+u2+s0MlpUQ==
+"@types/estree@^0.0.45":
+  version "0.0.45"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.45.tgz#e9387572998e5ecdac221950dab3e8c3b16af884"
+  integrity sha512-jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==
 
 "@types/events@*":
   version "3.0.0"
@@ -928,10 +928,10 @@ acorn@^4.0.4, acorn@~4.0.2:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.13.tgz#105495ae5361d697bd195c825192e1ad7f253787"
   integrity sha1-EFSVrlNh1pe9GVyCUZLhrX8lN4c=
 
-acorn@^7.0.0, acorn@^7.1.0, acorn@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
-  integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
+acorn@^7.1.0, acorn@^7.1.1, acorn@^7.3.0:
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.3.1.tgz#85010754db53c3fbaf3b9ea3e083aa5c5d147ffd"
+  integrity sha512-tLc0wSnatxAQHVHUapaHdz72pi9KUyHjq5KyHjGg9Y8Ifdc79pTh2XvI6I1/chZbnM7QtNKzh66ooDogPZSleA==
 
 agent-base@6:
   version "6.0.0"
@@ -2835,16 +2835,7 @@ enhanced-resolve@5.0.0-beta.7:
     graceful-fs "^4.2.0"
     tapable "^2.0.0-beta.10"
 
-enhanced-resolve@^4.0.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.1.1.tgz#2937e2b8066cd0fe7ce0990a98f0d71a35189f66"
-  integrity sha512-98p2zE+rL7/g/DzMHMTF4zZlCgeVdJ7yr6xzEpJRYwFYrGi9ANdn5DnJURg6RpBkyk60XYDnWIv51VfIhfNGuA==
-  dependencies:
-    graceful-fs "^4.1.2"
-    memory-fs "^0.5.0"
-    tapable "^1.0.0"
-
-enhanced-resolve@^4.1.1:
+enhanced-resolve@^4.0.0, enhanced-resolve@^4.1.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.2.0.tgz#5d43bda4a0fd447cb0ebbe71bef8deff8805ad0d"
   integrity sha512-S7eiFb/erugyd1rLb6mQ3Vuq+EXHv5cpCkNqqIkYkBgN2QdFnyCZzFBleqwGEx4lgNGYij81BWnCrFNK7vxvjQ==
@@ -4987,10 +4978,10 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
-loader-runner@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-3.1.0.tgz#e9440e5875f2ad2f968489cd2c7b59a4f2847fcb"
-  integrity sha512-wE/bOCdTKMR2rm7Xxh+eirDOmN7Vx7hntWgiTayuFPtF8MgsFDo49SP8kkYz8IVlEBTOtR7P+XI7bE1xjo/IkA==
+loader-runner@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-4.0.0.tgz#02abcfd9fe6ff7a5aeb3547464746c4dc6ba333d"
+  integrity sha512-Rqf48ufrr48gFjnaqss04QesoXB7VenbpFFIV/0yOKGnpbejrVlOPqTsoX42FG5goXM5Ixekcs4DqDzHOX2z7Q==
 
 loader-utils@2.0.0, loader-utils@^2.0.0:
   version "2.0.0"
@@ -5865,13 +5856,6 @@ p-limit@^2.0.0, p-limit@^2.2.0:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.2.2.tgz#61279b67721f5287aa1c13a9a7fbbc48c9291b1e"
   integrity sha512-WGR+xHecKTr7EbUEhyLSh5Dube9JtdiG78ufaeLxTgpudf/20KqyMioIUZJAezlTIi6evxuoUs9YXc11cU+yzQ==
-  dependencies:
-    p-try "^2.0.0"
-
-p-limit@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
-  integrity sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==
   dependencies:
     p-try "^2.0.0"
 
@@ -7452,13 +7436,6 @@ semver@^7.3.2:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
   integrity sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==
 
-serialize-javascript@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-3.1.0.tgz#8bf3a9170712664ef2561b44b691eafe399214ea"
-  integrity sha512-JIJT1DGiWmIKhzRsG91aS6Ze4sFUrYbltlkg2onR5OrnNM02Kl/hnY/T4FN2omvyeBbQmMJv+K4cPOpGzOTFBg==
-  dependencies:
-    randombytes "^2.1.0"
-
 serialize-javascript@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-4.0.0.tgz#b525e1238489a5ecfc42afacc3fe99e666f4b1aa"
@@ -8104,7 +8081,7 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-terser-webpack-plugin@3.0.6:
+terser-webpack-plugin@3.0.6, terser-webpack-plugin@^3.0.2:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-3.0.6.tgz#db0a108bbdd3680d72c9b491fbabad09ba207b99"
   integrity sha512-z3HLOOPUHkCNGkeEHqqiMAIy1pjpHwS1o+i6Zn0Ws3EAvHJj46737efNNEvJ0Vx9BdDQM83d56qySDJOSORA0A==
@@ -8118,30 +8095,6 @@ terser-webpack-plugin@3.0.6:
     source-map "^0.6.1"
     terser "^4.8.0"
     webpack-sources "^1.4.3"
-
-terser-webpack-plugin@^3.0.2:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-3.0.3.tgz#23bda2687b197f878a743373b9411d917adc2e45"
-  integrity sha512-bZFnotuIKq5Rqzrs+qIwFzGdKdffV9epG5vDSEbYzvKAhPeR5RbbrQysfPgbIIMhNAQtZD2hGwBfSKUXjXZZZw==
-  dependencies:
-    cacache "^15.0.4"
-    find-cache-dir "^3.3.1"
-    jest-worker "^26.0.0"
-    p-limit "^2.3.0"
-    schema-utils "^2.6.6"
-    serialize-javascript "^3.1.0"
-    source-map "^0.6.1"
-    terser "^4.6.13"
-    webpack-sources "^1.4.3"
-
-terser@^4.6.13:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.7.0.tgz#15852cf1a08e3256a80428e865a2fa893ffba006"
-  integrity sha512-Lfb0RiZcjRDXCC3OSHJpEkxJ9Qeqs6mp2v4jf2MHfy8vGERmVDuvjXdd/EnP5Deme5F2yBRBymKmKHCBg2echw==
-  dependencies:
-    commander "^2.20.0"
-    source-map "~0.6.1"
-    source-map-support "~0.5.12"
 
 terser@^4.8.0:
   version "4.8.0"
@@ -8981,17 +8934,17 @@ webpack-sources@^1.4.3:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@5.0.0-beta.20:
-  version "5.0.0-beta.20"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.0.0-beta.20.tgz#a4798bbbe5bd27651f85f401f7b05ebc94a9399a"
-  integrity sha512-bIUAephArRkyWBzhLJ7OD5ys+jTNgANuJJy4+qhAWd5De4T0l/qKrVYdXZCbAj3PXUdxyEL5KsJHPQHacyfBGQ==
+webpack@5.0.0-beta.21:
+  version "5.0.0-beta.21"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.0.0-beta.21.tgz#3f46465e6f8d33950ae645eb98bb227b78d3ee52"
+  integrity sha512-ZgS5vUDphrjuakkQfT41q75dNavg8zUeTq0x31DvZG+z+OqR37u9BZFwytHM9U/I0vrnqm9vvBviyeHrAG3n0Q==
   dependencies:
-    "@types/estree" "0.0.42"
+    "@types/estree" "^0.0.45"
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"
     "@webassemblyjs/wasm-edit" "1.9.0"
     "@webassemblyjs/wasm-parser" "1.9.0"
-    acorn "^7.0.0"
+    acorn "^7.3.0"
     chrome-trace-event "^1.0.2"
     enhanced-resolve "5.0.0-beta.7"
     eslint-scope "^5.0.0"
@@ -8999,7 +8952,7 @@ webpack@5.0.0-beta.20:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.15"
     json-parse-better-errors "^1.0.2"
-    loader-runner "^3.1.0"
+    loader-runner "^4.0.0"
     mime-types "^2.1.26"
     neo-async "^2.6.1"
     pkg-dir "^4.2.0"
