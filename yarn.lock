@@ -4656,10 +4656,10 @@ jmespath@0.15.0:
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
   integrity sha1-o/Iiqarp+Wb10nx5ZRDigJF2Qhc=
 
-jpeg-js@^0.3.3:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.3.6.tgz#c40382aac9506e7d1f2d856eb02f6c7b2a98b37c"
-  integrity sha512-MUj2XlMB8kpe+8DJUGH/3UJm4XpI8XEgZQ+CiHDeyrGoKPdW/8FJv6ku+3UiYm5Fz3CWaL+iXmD8Q4Ap6aC1Jw==
+jpeg-js@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.4.1.tgz#937a3ae911eb6427f151760f8123f04c8bfe6ef7"
+  integrity sha512-jA55yJiB5tCXEddos8JBbvW+IMrqY0y1tjjx9KNVtA+QPmu7ND5j0zkKopClpUTsaETL135uOM2XfcYG4XRjmw==
 
 js-beautify@^1.6.12:
   version "1.10.3"
@@ -6952,12 +6952,12 @@ punycode@^1.4.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
   integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
 
-pureimage@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/pureimage/-/pureimage-0.2.1.tgz#44a207611f8cd62cc563afc5983048b8d65763fa"
-  integrity sha512-BBwehZ4RyzGklMvLdTgoix/QfVcY95QuNriaedGxZaNi8aLeGmTeDEJMORdPTNbBFglpEAdo+8hdaZjFdMJ8Jw==
+pureimage@0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/pureimage/-/pureimage-0.2.4.tgz#7084e6de202beea1b2a4723545efce19266f5cfb"
+  integrity sha512-8/KkBM3nkUixfjFNw59UQJJ2HFIfiBgL3Cwxtrc9ObVe8yjcUfc/8ZCG0tbQ0qVjnlsCMq6binBueYbIlCb4qA==
   dependencies:
-    jpeg-js "^0.3.3"
+    jpeg-js "^0.4.1"
     opentype.js "^0.4.3"
     pngjs "^3.3.1"
 
