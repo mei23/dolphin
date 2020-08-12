@@ -194,7 +194,7 @@
 		"xev": "2.0.1"
 	},
 	"devDependencies": {
-		"@types/mocha": "8.0.1",
+		"@types/mocha": "8.0.2",
 		"mocha": "8.1.1"
 	}
 }
