@@ -161,10 +161,10 @@
   dependencies:
     "@types/ioredis" "*"
 
-"@types/chart.js@2.9.25":
-  version "2.9.25"
-  resolved "https://registry.yarnpkg.com/@types/chart.js/-/chart.js-2.9.25.tgz#a22d18f6f7cb5b4499f39de600c4c520f635a58f"
-  integrity sha512-SPgPISpaGM42WL9Dezms4+8fInHxAXDzTs8DwPxhGuJT+jETXlVITTbe8bvK1n+sMmyyelR9B4w0lwMkA24oJg==
+"@types/chart.js@2.9.26":
+  version "2.9.26"
+  resolved "https://registry.yarnpkg.com/@types/chart.js/-/chart.js-2.9.26.tgz#ac1ef4ae313754e510733b804ce0f71d950642ac"
+  integrity sha512-X2I0sRdvRB3QKtC240cYQtQHxPX9c7IPOZ2TRF1VOs1wtGfRsC7/AEUFWxPtJgaWV0SS+zK/Qh8jDEvNfa3KxQ==
   dependencies:
     moment "^2.10.2"
 
