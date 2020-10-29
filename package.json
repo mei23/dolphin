@@ -79,7 +79,7 @@
 		"@types/webpack": "4.41.23",
 		"@types/webpack-stream": "3.2.11",
 		"@types/websocket": "1.0.1",
-		"@types/ws": "7.2.7",
+		"@types/ws": "7.2.9",
 		"@typescript-eslint/parser": "2.34.0",
 		"abort-controller": "3.0.0",
 		"autobind-decorator": "2.4.0",
