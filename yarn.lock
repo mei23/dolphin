@@ -8245,10 +8245,10 @@ syslog-pro@1.0.0:
   dependencies:
     moment "^2.22.2"
 
-systeminformation@*, systeminformation@4.32.0:
-  version "4.32.0"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.32.0.tgz#37e0919ef32d25fe1bfaf2d817eb4a0f2950c358"
-  integrity sha512-8/LM0EvwhW34+n3fzmcl4swG7Ngx8h8s/5MooXlIJKyMbSiO9juCqftdQIpwa3NneKrca1uYO55JHZeYJUaSZw==
+systeminformation@*, systeminformation@4.34.2:
+  version "4.34.2"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.34.2.tgz#2fe6c5c25478990549443a69d8300eb3010b5560"
+  integrity sha512-1LynQMla38gIjzyupKBnBLIo4B0TQf3vdhs2bjKPtN02EymuSWpoAM1KX/6+gtFLVmn91MfllE3wSVGQcVTHDw==
 
 table-layout@^1.0.0:
   version "1.0.1"
