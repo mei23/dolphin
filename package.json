@@ -139,7 +139,7 @@
 		"pg": "8.5.1",
 		"portscanner": "2.2.0",
 		"postcss-loader": "3.0.0",
-		"probe-image-size": "6.0.0",
+		"probe-image-size": "7.0.1",
 		"promise-limit": "2.7.0",
 		"pug": "3.0.1",
 		"punycode": "2.1.1",

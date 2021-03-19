@@ -6715,10 +6715,10 @@ prettyjson@^1.2.1:
     colors "^1.1.2"
     minimist "^1.2.0"
 
-probe-image-size@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-6.0.0.tgz#4a85b19d5af4e29a8de7d53a9aa036f6fd02f5f4"
-  integrity sha512-99PZ5+RU4gqiTfK5ZDMDkZtn6eL4WlKfFyVJV7lFQvH3iGmQ85DqMTOdxorERO26LHkevR2qsxnHp0x/2UDJPA==
+probe-image-size@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-7.0.1.tgz#ac815d78bdf8c5643af6e541a572c0077c75f2c1"
+  integrity sha512-4ua2TGdO761JWaTgbLD2Uq9yFvB34QBAxnqz9GOs3w4+SC4dfbQcnnNY8loHjZV5NRW8PSQRz+WZ6NfUvbuRDA==
   dependencies:
     deepmerge "^4.0.0"
     needle "^2.5.2"
