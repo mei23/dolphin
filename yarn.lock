@@ -684,10 +684,10 @@
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
 
-"@types/websocket@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@types/websocket/-/websocket-1.0.1.tgz#039272c196c2c0e4868a0d8a1a27bbb86e9e9138"
-  integrity sha512-f5WLMpezwVxCLm1xQe/kdPpQIOmL0TXYx2O15VYfYzc7hTIdxiOoOvez+McSIw3b7z/1zGovew9YSL7+h4h7/Q==
+"@types/websocket@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/websocket/-/websocket-1.0.2.tgz#d2855c6a312b7da73ed16ba6781815bf30c6187a"
+  integrity sha512-B5m9aq7cbbD/5/jThEr33nUY8WEfVi6A2YKCTOvw5Ldy7mtsOkqRvGjnzy6g7iMMDsgu7xREuCzqATLDLQVKcQ==
   dependencies:
     "@types/node" "*"
 
@@ -9127,36 +9127,7 @@ webpack-sources@^2.1.1:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@5.28.0:
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.28.0.tgz#0de8bcd706186b26da09d4d1e8cbd3e4025a7c2f"
-  integrity sha512-1xllYVmA4dIvRjHzwELgW4KjIU1fW4PEuEnjsylz7k7H5HgPOctIq7W1jrt3sKH9yG5d72//XWzsHhfoWvsQVg==
-  dependencies:
-    "@types/eslint-scope" "^3.7.0"
-    "@types/estree" "^0.0.46"
-    "@webassemblyjs/ast" "1.11.0"
-    "@webassemblyjs/wasm-edit" "1.11.0"
-    "@webassemblyjs/wasm-parser" "1.11.0"
-    acorn "^8.0.4"
-    browserslist "^4.14.5"
-    chrome-trace-event "^1.0.2"
-    enhanced-resolve "^5.7.0"
-    es-module-lexer "^0.4.0"
-    eslint-scope "^5.1.1"
-    events "^3.2.0"
-    glob-to-regexp "^0.4.1"
-    graceful-fs "^4.2.4"
-    json-parse-better-errors "^1.0.2"
-    loader-runner "^4.2.0"
-    mime-types "^2.1.27"
-    neo-async "^2.6.2"
-    schema-utils "^3.0.0"
-    tapable "^2.1.1"
-    terser-webpack-plugin "^5.1.1"
-    watchpack "^2.0.0"
-    webpack-sources "^2.1.1"
-
-webpack@^5:
+webpack@5.28.0, webpack@^5:
   version "5.28.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.28.0.tgz#0de8bcd706186b26da09d4d1e8cbd3e4025a7c2f"
   integrity sha512-1xllYVmA4dIvRjHzwELgW4KjIU1fW4PEuEnjsylz7k7H5HgPOctIq7W1jrt3sKH9yG5d72//XWzsHhfoWvsQVg==
