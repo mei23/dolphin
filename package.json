@@ -115,7 +115,7 @@
 		"insert-text-at-cursor": "0.3.0",
 		"is-root": "2.1.0",
 		"is-svg": "4.3.1",
-		"js-yaml": "3.14.1",
+		"js-yaml": "4.1.0",
 		"jsdom": "16.5.3",
 		"jsonld": "5.2.0",
 		"koa": "2.13.1",
