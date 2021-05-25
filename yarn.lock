@@ -8165,10 +8165,10 @@ syslog-pro@1.0.0:
   dependencies:
     moment "^2.22.2"
 
-systeminformation@*, systeminformation@5.6.12:
-  version "5.6.12"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.6.12.tgz#cdb8338eef48c219352d95f2b0839f9ad5399fae"
-  integrity sha512-prJAt+iS2ITeygjLt/FGtN1qsIQHrRePCUqWtP0hGv6JsS0LSQTR+y5hWAd4frUIM/sjG95jHFUK1gx244KwUA==
+systeminformation@*, systeminformation@5.7.2:
+  version "5.7.2"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.7.2.tgz#750def331aa5db46aab1917982004801d427d6fa"
+  integrity sha512-pVYb3P2X2jmEQu0AAOZhlH8K8bfZf96dtpAsIGna7fNJ/fVh/pdq6tmuwgT9Oc5nlwDDN8/6yapr+rIphX3L7A==
 
 table@^5.2.3:
   version "5.4.6"
