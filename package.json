@@ -85,7 +85,7 @@
 		"@typescript-eslint/parser": "2.34.0",
 		"abort-controller": "3.0.0",
 		"autobind-decorator": "2.4.0",
-		"aws-sdk": "2.891.0",
+		"aws-sdk": "2.919.0",
 		"bcryptjs": "2.4.3",
 		"bull": "3.22.3",
 		"cafy": "15.2.1",
