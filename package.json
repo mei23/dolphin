@@ -142,7 +142,7 @@
 		"postcss-loader": "5.2.0",
 		"probe-image-size": "7.1.0",
 		"promise-limit": "2.7.0",
-		"pug": "3.0.1",
+		"pug": "3.0.2",
 		"punycode": "2.1.1",
 		"pureimage": "0.3.2",
 		"random-seed": "0.3.0",
