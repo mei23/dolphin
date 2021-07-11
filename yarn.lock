@@ -368,10 +368,10 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.4.tgz#38fd73ddfd9b55abb1e1b2ed578cb55bd7b7d339"
   integrity sha512-8+KAKzEvSUdeo+kmqnKrqgeE+LcA0tjYWFY7RPProVYwnqDjukzO+3b6dLD56rYX5TdWejnEOLJYOIeh4CXKuA==
 
-"@types/jsonld@1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@types/jsonld/-/jsonld-1.5.5.tgz#c2238462a83e90f003929cef6a36eded2ceed069"
-  integrity sha512-/4PvZJJh3Lqz9bkwvSwfyLWnR1xFQ7h4KLq8i0yaGjBBq09qLMJlCqvfXfE5qFEnClmWM+GK2Edjbb6QDS2SXQ==
+"@types/jsonld@1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@types/jsonld/-/jsonld-1.5.6.tgz#4396c0b17128abf5773bb68b5453b88fc565b0d4"
+  integrity sha512-OUcfMjRie5IOrJulUQwVNvV57SOdKcTfBj3pjXNxzXqeOIrY2aGDNGW/Tlp83EQPkz4tCE6YWVrGuc/ZeaAQGg==
 
 "@types/keygrip@*":
   version "1.0.2"
