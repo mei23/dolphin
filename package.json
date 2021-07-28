@@ -80,7 +80,7 @@
 		"@types/web-push": "3.3.2",
 		"@types/webpack": "5.28.0",
 		"@types/webpack-stream": "3.2.12",
-		"@types/websocket": "1.0.3",
+		"@types/websocket": "1.0.4",
 		"@types/ws": "7.4.6",
 		"@typescript-eslint/parser": "2.34.0",
 		"abort-controller": "3.0.0",
