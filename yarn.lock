@@ -8478,10 +8478,10 @@ trace-redirect@1.0.6:
   resolved "https://registry.yarnpkg.com/trace-redirect/-/trace-redirect-1.0.6.tgz#ac629b5bf8247d30dde5a35fe9811b811075b504"
   integrity sha512-UUfa1DjjU5flcjMdaFIiIEGDTyu2y/IiMjOX4uGXa7meKBS4vD4f2Uy/tken9Qkd4Jsm4sRsfZcIIPqrRVF3Mg==
 
-ts-loader@9.1.1:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.1.1.tgz#83f598c37e648f3b6b2350bfac6f58f9253d078c"
-  integrity sha512-u91MdIE4rtN/06Q881uUzVeMoYy+CdFXoanCQXVGRubKKxgLjqQ/H9nkDbp6klkiPv3t18KLjZbEofkJodM3ow==
+ts-loader@9.2.5:
+  version "9.2.5"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.2.5.tgz#127733a5e9243bf6dafcb8aa3b8a266d8041dca9"
+  integrity sha512-al/ATFEffybdRMUIr5zMEWQdVnCGMUA9d3fXJ8dBVvBlzytPvIszoG9kZoR+94k6/i293RnVOXwMaWbXhNy9pQ==
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
