@@ -38,7 +38,7 @@
 		"@koa/multer": "3.0.0",
 		"@koa/router": "8.0.8",
 		"@types/bcryptjs": "2.4.2",
-		"@types/bull": "3.15.3",
+		"@types/bull": "3.15.5",
 		"@types/chart.js": "2.9.34",
 		"@types/dateformat": "3.0.1",
 		"@types/escape-regexp": "0.0.0",
