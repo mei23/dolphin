@@ -59,7 +59,7 @@
 		"@types/koa__cors": "3.0.3",
 		"@types/koa__multer": "2.0.3",
 		"@types/koa__router": "8.0.7",
-		"@types/node": "16.6.1",
+		"@types/node": "16.11.6",
 		"@types/node-fetch": "2.5.12",
 		"@types/nprogress": "0.2.0",
 		"@types/os-utils": "0.0.1",
