@@ -75,7 +75,7 @@
 		"@types/sharp": "0.28.5",
 		"@types/speakeasy": "2.0.6",
 		"@types/systeminformation": "3.54.1",
-		"@types/tmp": "0.2.1",
+		"@types/tmp": "0.2.2",
 		"@types/uuid": "8.3.1",
 		"@types/web-push": "3.3.2",
 		"@types/webpack": "5.28.0",
