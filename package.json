@@ -189,7 +189,7 @@
 		"webpack": "5.34.0",
 		"webpack-cli": "4.7.2",
 		"websocket": "1.0.34",
-		"ws": "7.5.3",
+		"ws": "8.2.3",
 		"xev": "2.0.1"
 	},
 	"devDependencies": {
