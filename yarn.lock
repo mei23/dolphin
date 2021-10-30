@@ -444,7 +444,7 @@
   dependencies:
     koa-views "*"
 
-"@types/koa@*", "@types/koa@2.13.4", "@types/koa@^2.13.1":
+"@types/koa@*", "@types/koa@2.13.4":
   version "2.13.4"
   resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.13.4.tgz#10620b3f24a8027ef5cbae88b393d1b31205726b"
   integrity sha512-dfHYMfU+z/vKtQB7NUrthdAEiSvnLebvBjwHtfFmpZmB7em2N3WVQdHgnFq+xvyVgxW5jKDmjWfLD3lw4g4uTw==
@@ -4696,12 +4696,11 @@ koa-send@5.0.1, koa-send@^5.0.0:
     http-errors "^1.7.3"
     resolve-path "^1.4.0"
 
-koa-views@*, koa-views@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/koa-views/-/koa-views-7.0.1.tgz#0c8f8e65d5cd2e08249430cb83dc361e49a17a5a"
-  integrity sha512-yS8751DXHXXDbdl/oUZd0PsgnxR0MLiguu77Eqrgu6yawE9Hi99wNKiVENb0Kfgsmvq/8px7YCI+USgxaTB1LA==
+koa-views@*, koa-views@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/koa-views/-/koa-views-7.0.2.tgz#c96fd9e2143ef00c29dc5160c5ed639891aa723d"
+  integrity sha512-dvx3mdVeSVuIPEaKAoGbxLcenudvhl821xxyuRbcoA+bOJ2dvN8wlGjkLu0ZFMlkCscXZV6lzxy28rafeazI/w==
   dependencies:
-    "@types/koa" "^2.13.1"
     consolidate "^0.16.0"
     debug "^4.1.0"
     get-paths "0.0.7"
