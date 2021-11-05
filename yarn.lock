@@ -313,10 +313,10 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
-"@types/fluent-ffmpeg@2.1.18":
-  version "2.1.18"
-  resolved "https://registry.yarnpkg.com/@types/fluent-ffmpeg/-/fluent-ffmpeg-2.1.18.tgz#72246c2f8c0f0a590aefc1cdbe13736c73f22a81"
-  integrity sha512-LTteOx3RUmnPlKkvhvW9aGOHdJYyEtIiRBVbYVO/zPU65ZYQelbPJ+zBBT+IXup7doMvxVstX7NMoUTWKZOhww==
+"@types/fluent-ffmpeg@2.1.19":
+  version "2.1.19"
+  resolved "https://registry.yarnpkg.com/@types/fluent-ffmpeg/-/fluent-ffmpeg-2.1.19.tgz#564710b3d8d1c8a2be9db9bd9ce6dcd450a73779"
+  integrity sha512-Zn20PcPe0HbsUM7i0qNpGrZWXLCfh9xI4LJ3ovtiao4RDKmmosFmHeyxozpeqLYyZeRkZIHeb5IqrK3bld2Yjw==
   dependencies:
     "@types/node" "*"
 
