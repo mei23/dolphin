@@ -162,7 +162,7 @@
 		"summaly": "2.4.1",
 		"syslog-pro": "1.0.0",
 		"systeminformation": "5.9.9",
-		"terser-webpack-plugin": "4.2.3",
+		"terser-webpack-plugin": "5.3.0",
 		"textarea-caret": "3.1.0",
 		"tmp": "0.2.1",
 		"ts-loader": "9.2.6",
