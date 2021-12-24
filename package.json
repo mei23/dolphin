@@ -73,7 +73,7 @@
 		"@types/rename": "1.0.4",
 		"@types/rimraf": "3.0.2",
 		"@types/seedrandom": "3.0.1",
-		"@types/sharp": "0.28.5",
+		"@types/sharp": "0.29.5",
 		"@types/speakeasy": "2.0.6",
 		"@types/systeminformation": "3.54.1",
 		"@types/tmp": "0.2.2",
