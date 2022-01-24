@@ -7922,10 +7922,10 @@ syslog-pro@1.0.0:
   dependencies:
     moment "^2.22.2"
 
-systeminformation@*, systeminformation@5.9.9:
-  version "5.9.9"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.9.9.tgz#aa8234a138363bd988f438fed3273370f79d7e30"
-  integrity sha512-xciy6NKCLfs4dqMD1Tdlo7v1/g0NfdA1EKsIptUQjlcVvpwHyjifAbNOF7ppFezGSMXxYE8me+l2+RlFF4lyTg==
+systeminformation@*, systeminformation@5.10.7:
+  version "5.10.7"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.10.7.tgz#82aecd2509cfa0f22eb7ec8c59f5b83dc603def1"
+  integrity sha512-elAv0h67BDuafy+zuS/yF9QCgQcROXaK9AXMnLz+NHq/LRv7p2/k5qWIwaVxwsSZE8r+dVyIw0BtFO/FoHtZaw==
 
 tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.0"
