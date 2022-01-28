@@ -6604,10 +6604,10 @@ prettyjson@^1.2.1:
     colors "^1.1.2"
     minimist "^1.2.0"
 
-probe-image-size@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-7.1.0.tgz#2b0f8474c9c0c68f3b640e353fe64127585f0f6b"
-  integrity sha512-T7F4ZF4iWQJWhj/ijPyh88fHen9UtaUwtV+QMZ1NkmpUSDHmfYlZgRUTOcFKnqi95I6kpGBQ+3pF1dCtVmDeIg==
+probe-image-size@7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-7.2.3.tgz#d49c64be540ec8edea538f6f585f65a9b3ab4309"
+  integrity sha512-HubhG4Rb2UH8YtV4ba0Vp5bQ7L78RTONYu/ujmCu5nBI8wGv24s4E9xSKBi0N1MowRpxk76pFCpJtW0KPzOK0w==
   dependencies:
     lodash.merge "^4.6.2"
     needle "^2.5.2"
