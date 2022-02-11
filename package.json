@@ -85,7 +85,7 @@
 		"@types/ws": "8.2.0",
 		"abort-controller": "3.0.0",
 		"autobind-decorator": "2.4.0",
-		"aws-sdk": "2.1012.0",
+		"aws-sdk": "2.1073.0",
 		"bcryptjs": "2.4.3",
 		"bull": "3.29.3",
 		"cafy": "15.2.1",
