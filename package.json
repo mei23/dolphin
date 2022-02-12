@@ -81,7 +81,7 @@
 		"@types/web-push": "3.3.2",
 		"@types/webpack": "5.28.0",
 		"@types/webpack-stream": "3.2.12",
-		"@types/websocket": "1.0.4",
+		"@types/websocket": "1.0.5",
 		"@types/ws": "8.2.2",
 		"abort-controller": "3.0.0",
 		"autobind-decorator": "2.4.0",
