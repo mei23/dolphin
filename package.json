@@ -82,7 +82,7 @@
 		"@types/webpack": "5.28.0",
 		"@types/webpack-stream": "3.2.12",
 		"@types/websocket": "1.0.4",
-		"@types/ws": "8.2.0",
+		"@types/ws": "8.2.2",
 		"abort-controller": "3.0.0",
 		"autobind-decorator": "2.4.0",
 		"aws-sdk": "2.1073.0",
