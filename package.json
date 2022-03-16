@@ -29,7 +29,7 @@
 		"jsonld/rdf-canonize/node-forge": "0.10.0"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "1.2.36",
+		"@fortawesome/fontawesome-svg-core": "6.1.0",
 		"@fortawesome/free-brands-svg-icons": "5.15.4",
 		"@fortawesome/free-regular-svg-icons": "5.15.4",
 		"@fortawesome/free-solid-svg-icons": "5.15.4",
