@@ -1,5 +1,5 @@
 import $ from 'cafy';
-import { EntityRepository, Repository, In } from 'typeorm';
+import { EntityRepository, Repository, In, Not } from 'typeorm';
 import { User, ILocalUser, IRemoteUser } from '../entities/user';
 import { Emojis, Notes, NoteUnreads, FollowRequests, Notifications, UserNotePinings, Followings, Blockings, Mutings, UserProfiles } from '..';
 import { ensure } from '../../prelude/ensure';
@@ -53,6 +53,24 @@ export class UserRepository extends Repository<User> {
 			isBlocked: fromBlocked != null,
 			isMuted: mute != null
 		};
+	}
+
+	public async getHasUnreadNotification(userId: User['id']): Promise<boolean> {
+		const mute = await Mutings.find({
+			muterId: userId
+		});
+		const mutedUserIds = mute.map(m => m.muteeId);
+
+		const count = await Notifications.count({
+			where: {
+				notifieeId: userId,
+				...(mutedUserIds.length > 0 ? { notifierId: Not(In(mutedUserIds)) } : {}),
+				isRead: false
+			},
+			take: 1
+		});
+
+		return count > 0;
 	}
 
 	public async pack(
@@ -133,13 +151,7 @@ export class UserRepository extends Repository<User> {
 				bannerId: user.bannerId,
 				alwaysMarkNsfw: profile!.alwaysMarkNsfw,
 				autoAcceptFollowed: profile!.autoAcceptFollowed,
-				hasUnreadNotification: Notifications.count({
-					where: {
-						notifieeId: user.id,
-						isRead: false
-					},
-					take: 1
-				}).then(count => count > 0),
+				hasUnreadNotification: this.getHasUnreadNotification(user.id),
 				pendingReceivedFollowRequestsCount: FollowRequests.count({
 					followeeId: user.id
 				}),
