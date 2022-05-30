@@ -36,7 +36,8 @@ export async function createNotification(
 	}
 
 	// Create notification
-	const notification = await Notifications.save(data);
+	const notification = await Notifications.insert(data)
+		.then(x => Notifications.findOneOrFail(x.identifiers[0]));
 
 	const packed = await Notifications.pack(notification);
 
