@@ -25,6 +25,7 @@
 	"resolutions": {
 		"lodash": "^4.17.21",
 		"dot-prop": "^5.2.0",
+		"source-map": "^0.8.0-beta.0",
 		"jsonld/rdf-canonize/node-forge": "0.10.0"
 	},
 	"dependencies": {
