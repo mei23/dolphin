@@ -115,7 +115,7 @@
 		"is-svg": "4.3.2",
 		"js-yaml": "4.1.0",
 		"jsdom": "19.0.0",
-		"jsonld": "5.2.0",
+		"jsonld": "8.1.0",
 		"koa": "2.13.4",
 		"koa-bodyparser": "4.3.0",
 		"koa-favicon": "2.1.0",
