@@ -156,7 +156,7 @@
 		"sass": "1.43.4",
 		"sass-loader": "11.0.1",
 		"seedrandom": "3.0.5",
-		"sharp": "0.29.3",
+		"sharp": "0.31.2",
 		"speakeasy": "2.0.0",
 		"stringz": "2.1.0",
 		"style-loader": "3.3.1",
