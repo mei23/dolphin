@@ -125,7 +125,7 @@
 		"koa-send": "5.0.1",
 		"koa-views": "8.0.0",
 		"langmap": "0.0.16",
-		"loader-utils": "2.0.0",
+		"loader-utils": "2.0.3",
 		"lookup-dns-cache": "2.1.0",
 		"mocha": "10.1.0",
 		"ms": "2.1.3",
