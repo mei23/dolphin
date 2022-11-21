@@ -313,10 +313,10 @@
   resolved "https://registry.yarnpkg.com/@types/dateformat/-/dateformat-3.0.1.tgz#98d747a2e5e9a56070c6bf14e27bff56204e34cc"
   integrity sha512-KlPPdikagvL6ELjWsljbyDIPzNCeliYkqRpI+zea99vBBbCIA5JNshZAwQKTON139c87y9qvTFVgkFd14rtS4g==
 
-"@types/escape-regexp@0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@types/escape-regexp/-/escape-regexp-0.0.0.tgz#bff0225f9ef30d0dbdbe0e2a24283ee5342990c3"
-  integrity sha512-HTansGo4tJ7K7W9I9LBdQqnHtPB/Y7tlS+EMrkboaAQLsRPhRpHaqAHe01K1HVXM5e1u1IplRd8EBh+pJrp7Dg==
+"@types/escape-regexp@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@types/escape-regexp/-/escape-regexp-0.0.1.tgz#f1a977ccdf2ef059e9862bd3af5e92cbbe723e0e"
+  integrity sha512-ogj/ZTIdeFkiuxDwawYuZSIgC6suFGgBeZPr6Xs5lHEcvIXTjXGtH+/n8f1XhZhespaUwJ5LIGRICPji972FLw==
 
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"
