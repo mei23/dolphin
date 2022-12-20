@@ -83,7 +83,7 @@
 		"@types/webpack": "5.28.0",
 		"@types/webpack-stream": "3.2.12",
 		"@types/websocket": "1.0.5",
-		"@types/ws": "8.2.2",
+		"@types/ws": "8.5.3",
 		"abort-controller": "3.0.0",
 		"autobind-decorator": "2.4.0",
 		"aws-sdk": "2.1073.0",
@@ -193,7 +193,7 @@
 		"webpack": "5.68.0",
 		"webpack-cli": "4.9.2",
 		"websocket": "1.0.34",
-		"ws": "8.2.3",
+		"ws": "8.11.0",
 		"xev": "2.0.1"
 	},
 	"devDependencies": {}
