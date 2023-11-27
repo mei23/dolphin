@@ -1,6 +1,11 @@
 import * as Router from '@koa/router';
-import * as json from 'koa-json-body';
+import config from '../config';
+import * as coBody from 'co-body';
+import * as crypto from 'crypto';
+import { IActivity } from '../remote/activitypub/type';
 import * as httpSignature from 'http-signature';
+import Logger from '../services/logger';
+import { inspect } from 'util';
 
 import { renderActivity } from '../remote/activitypub/renderer';
 import renderNote from '../remote/activitypub/renderer/note';
@@ -18,22 +23,72 @@ import { ILocalUser, User } from '../models/entities/user';
 import { In } from 'typeorm';
 import { ensure } from '../prelude/ensure';
 
+const logger = new Logger('activitypub');
+
 // Init router
 const router = new Router();
 
 //#region Routing
 
-function inbox(ctx: Router.RouterContext) {
-	let signature;
+async function inbox(ctx: Router.RouterContext) {
+	if (ctx.req.headers.host !== config.host) {
+		ctx.status = 400;
+		return;
+	}
+
+	// parse body
+	const { parsed, raw } = await coBody.json(ctx, {
+		limit: '64kb',
+		returnRawBody: true,
+	});
+	ctx.request.body = parsed;
+
+	let signature: httpSignature.IParsedSignature;
 
 	try {
-		signature = httpSignature.parseRequest(ctx.req, { 'headers': [] });
+		signature = httpSignature.parseRequest(ctx.req, { 'headers': ['(request-target)', 'digest', 'host', 'date'] });
 	} catch (e) {
+		logger.warn(`inbox: signature parse error: ${inspect(e)}`);
 		ctx.status = 401;
 		return;
 	}
 
-	processInbox(ctx.request.body, signature);
+	// Digestヘッダーの検証
+	const digest = ctx.req.headers.digest;
+
+	// 無いとか複数あるとかダメ！
+	if (typeof digest !== 'string') {
+		logger.warn(`inbox: unrecognized digest header 1`);
+		ctx.status = 401;
+		return;
+	}
+
+	const match = digest.match(/^([0-9A-Za-z-]+)=(.+)$/);
+
+	if (match == null) {
+		logger.warn(`inbox: unrecognized digest header 2`);
+		ctx.status = 401;
+		return;
+	}
+
+	const digestAlgo = match[1];
+	const digestExpected = match[2];
+
+	if (digestAlgo.toUpperCase() !== 'SHA-256') {
+		logger.warn(`inbox: unsupported algorithm`);
+		ctx.status = 401;
+		return;
+	}
+
+	const digestActual = crypto.createHash('sha256').update(raw).digest('base64');
+
+	if (digestExpected !== digestActual) {
+		logger.warn(`inbox: digest missmatch`);
+		ctx.status = 401;
+		return;
+	}
+
+	processInbox(ctx.request.body as IActivity, signature);
 
 	ctx.status = 202;
 }
@@ -57,8 +112,8 @@ export function setResponseType(ctx: Router.RouterContext) {
 }
 
 // inbox
-router.post('/inbox', json(), inbox);
-router.post('/users/:user/inbox', json(), inbox);
+router.post('/inbox', inbox);
+router.post('/users/:user/inbox', inbox);
 
 // note
 router.get('/notes/:note', async (ctx, next) => {
