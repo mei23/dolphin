@@ -1,5 +1,5 @@
 import * as Bull from 'bull';
-import * as httpSignature from 'http-signature';
+import * as httpSignature from '@peertube/http-signature';
 import perform from '../../remote/activitypub/perform';
 import Logger from '../../services/logger';
 import { registerOrFetchInstanceDoc } from '../../services/register-or-fetch-instance-doc';

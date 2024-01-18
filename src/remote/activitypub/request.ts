@@ -1,5 +1,5 @@
 import * as https from 'https';
-import { sign } from 'http-signature';
+import { sign } from '@peertube/http-signature';
 import * as crypto from 'crypto';
 
 import config from '../../config';

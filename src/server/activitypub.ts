@@ -3,7 +3,7 @@ import config from '../config';
 import * as coBody from 'co-body';
 import * as crypto from 'crypto';
 import { IActivity } from '../remote/activitypub/type';
-import * as httpSignature from 'http-signature';
+import * as httpSignature from '@peertube/http-signature';
 import Logger from '../services/logger';
 import { inspect } from 'util';
 
