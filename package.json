@@ -112,7 +112,7 @@
 		"https-proxy-agent": "5.0.1",
 		"insert-text-at-cursor": "0.3.0",
 		"is-svg": "4.3.2",
-		"js-yaml": "4.1.0",
+		"js-yaml": "4.1.1",
 		"jsdom": "19.0.0",
 		"jsonld": "5.2.0",
 		"koa": "2.15.4",
