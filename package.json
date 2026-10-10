@@ -137,7 +137,7 @@
 		"portscanner": "2.2.0",
 		"postcss": "8.4.32",
 		"postcss-loader": "5.2.0",
-		"probe-image-size": "7.2.3",
+		"probe-image-size": "7.4.0",
 		"promise-limit": "2.7.0",
 		"pug": "3.0.3",
 		"punycode": "2.1.1",
